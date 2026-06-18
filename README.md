@@ -24,7 +24,29 @@ The workflow includes:
 
 ## Dataset
 
-The dataset contains speech-related features extracted from voice recordings.
+The dataset consists of biomedical voice measurements collected from healthy individuals and Parkinson's Disease patients. Each sample contains multiple acoustic and signal-processing features designed to capture subtle changes in speech production associated with Parkinson's Disease.
+
+---
+
+## Machine Learning Pipeline
+
+Dataset
+↓
+Data Cleaning
+↓
+Feature Analysis
+↓
+Correlation-Based Feature Selection
+↓
+Train-Test Split (80:20)
+↓
+Feature Scaling
+↓
+Model Training
+↓
+Performance Evaluation
+↓
+Model Comparison
 
 ---
 
@@ -101,5 +123,5 @@ This project is for educational purposes only. The models and results presented 
 
 ## Contributors:
 
-Sairam Sridharan
-Mruthunjay Mani
+- [Sairam Sridharan](https://github.com/Sairamzz)
+- Mruthunjay Mani
