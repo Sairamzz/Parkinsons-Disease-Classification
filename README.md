@@ -43,23 +43,25 @@ The dataset consists of biomedical voice measurements collected from healthy ind
 
 ## Machine Learning Pipeline
 
+```text
 Dataset
-↓
+   ↓
 Data Cleaning
-↓
+   ↓
 Feature Analysis
-↓
+   ↓
 Correlation-Based Feature Selection
-↓
+   ↓
 Train-Test Split (80:20)
-↓
+   ↓
 Feature Scaling
-↓
+   ↓
 Model Training
-↓
+   ↓
 Performance Evaluation
-↓
+   ↓
 Model Comparison
+```
 
 ---
 
