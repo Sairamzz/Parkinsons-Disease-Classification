@@ -1,4 +1,4 @@
-# Parkinsons-Disease-Classification
+# Parkinson's Disease Classification using Machine Learning
 
 This repository contains an academic machine learning project focused on classifying Parkinson's Disease from speech-based biomedical features. The project compares multiple supervised learning models and studies the effect of feature selection on classification performance.
 
