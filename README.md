@@ -117,20 +117,29 @@ The project trains and compares the following models:
 
 ## Results
 
-In the notebook run, the final comparison table reports the following performance:
+The following table summarizes the performance of the evaluated machine learning models on the Parkinson's Disease classification task.
 
 | Model | Train Accuracy | Test Accuracy | F1-Score | Recall | AUC |
-|---|---:|---:|---:|---:|---:|
-| KNN | 83.85 | 81.25 | 82.35 | 80.77 | 81.29 |
-| SVC | 85.42 | 79.17 | 80.77 | 80.77 | 79.02 |
-| Naive Bayes | 83.33 | 75.00 | 76.92 | 76.92 | 74.83 |
-| Logistic Regression | 84.90 | 81.25 | 81.63 | 76.92 | 81.64 |
-| Meta Classifier | 84.38 | 77.08 | 78.43 | 76.92 | 77.10 |
-| Decision Tree | 85.42 | 68.75 | 66.67 | 57.69 | 69.76 |
-| Bagging | 85.42 | 75.00 | 76.00 | 73.08 | 75.17 |
-| AdaBoost | 87.50 | 72.92 | 74.51 | 73.08 | 72.90 |
-| Gradient Boosting | 92.71 | 72.92 | 73.47 | 69.23 | 73.25 |
-| Random Forest | 98.96 | 72.92 | 76.36 | 80.77 | 72.20 |
+|--------|--------:|--------:|--------:|--------:|--------:|
+| KNN | 81.77 | 81.25 | 83.02 | 91.67 | 81.25 |
+| SVC | 82.81 | 79.17 | 81.48 | 91.67 | 79.17 |
+| Naive Bayes | 80.73 | 70.83 | 75.86 | 91.67 | 70.83 |
+| Logistic Regression | 83.85 | 83.33 | 84.00 | 87.50 | 83.33 |
+| Meta Classifier | 82.81 | 75.00 | 77.78 | 87.50 | 75.00 |
+| Decision Tree | 81.25 | 75.00 | 77.78 | 87.50 | 75.00 |
+| Bagging | 82.81 | 77.08 | 79.25 | 87.50 | 77.08 |
+| AdaBoost | 88.02 | 75.00 | 77.78 | 87.50 | 75.00 |
+| Gradient Boost | 90.10 | 70.83 | 75.00 | 87.50 | 70.83 |
+| Random Forest | 99.48 | 77.08 | 79.25 | 87.50 | 77.08 |
+
+### Observations
+
+- Logistic Regression achieved the highest test accuracy (**83.33%**) and F1-score (**84.00%**).
+- KNN and SVC also demonstrated strong performance, achieving test accuracies above **79%**.
+- Ensemble methods such as Random Forest and Gradient Boosting showed signs of overfitting, with significantly higher training accuracy than testing accuracy.
+- Overall, Logistic Regression provided the best balance between training performance and generalization on the test dataset.
+
+---
 
 ## Disclaimer
 
