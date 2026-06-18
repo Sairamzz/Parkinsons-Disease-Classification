@@ -4,6 +4,19 @@ This repository contains an academic machine learning project focused on classif
 
 ---
 
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Machine Learning Pipeline](#machine-learning-pipeline)
+- [Feature Groups](#feature-groups)
+- [Feature Selection](#feature-selection)
+- [Train-Test Split](#train-test-split)
+- [Models Trained](#models-trained)
+- [Results](#results)
+- [Disclaimer](#disclaimer)
+- [Contributors](#contributors)
+
+---
+
 ## Project Overview
 
 Parkinson's Disease can affect speech and vocal patterns. In this project, speech-derived features such as jitter, shimmer, harmonic-to-noise ratios, MFCCs, recurrence measures, and entropy-based features are used to classify whether a sample belongs to a healthy subject or a Parkinson's Disease patient.
